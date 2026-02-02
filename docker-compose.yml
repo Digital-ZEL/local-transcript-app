@@ -1,0 +1,73 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: ./apps/api
+      dockerfile: Dockerfile
+    container_name: transcript-api
+    ports:
+      - "${API_PORT:-8000}:8000"
+    volumes:
+      - ./apps/api:/app
+      - ./data:/data
+    environment:
+      - DATABASE_URL=sqlite:///data/db/transcript.db
+      - UPLOADS_DIR=/data/uploads
+      - OUTPUTS_DIR=/data/outputs
+      - MAX_UPLOAD_SIZE_MB=${MAX_UPLOAD_SIZE_MB:-500}
+      - YOUTUBE_SAFE_MODE=${YOUTUBE_SAFE_MODE:-true}
+      - YOUTUBE_AUTO_INGEST=${YOUTUBE_AUTO_INGEST:-false}
+      - YOUTUBE_MAX_DURATION_MIN=${YOUTUBE_MAX_DURATION_MIN:-120}
+      - ALLOWED_EXTENSIONS=${ALLOWED_EXTENSIONS:-mp3,mp4,wav,m4a,webm,ogg,flac,mkv,avi,mov}
+    depends_on:
+      - worker
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  worker:
+    build:
+      context: ./apps/worker
+      dockerfile: Dockerfile
+    container_name: transcript-worker
+    volumes:
+      - ./apps/worker:/app
+      - ./data:/data
+    environment:
+      - DATABASE_URL=sqlite:///data/db/transcript.db
+      - UPLOADS_DIR=/data/uploads
+      - OUTPUTS_DIR=/data/outputs
+      - WHISPER_MODEL=${WHISPER_MODEL:-small}
+      - WHISPER_DEVICE=${WHISPER_DEVICE:-cpu}
+      - YOUTUBE_SAFE_MODE=${YOUTUBE_SAFE_MODE:-true}
+      - YOUTUBE_AUTO_INGEST=${YOUTUBE_AUTO_INGEST:-false}
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+
+  web:
+    build:
+      context: ./apps/web
+      dockerfile: Dockerfile
+    container_name: transcript-web
+    ports:
+      - "${WEB_PORT:-3000}:3000"
+    volumes:
+      - ./apps/web:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=http://localhost:${API_PORT:-8000}
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  data:
+    driver: local

@@ -1,0 +1,21 @@
+# Worker Dependencies - Local Transcript App
+# ==========================================
+
+# Transcription engine (faster-whisper is GPU-optional, CPU works too)
+# Uses CTranslate2 for 4x speedup over original Whisper
+faster-whisper>=1.0.0
+
+# YouTube download and handling
+yt-dlp>=2024.1.0
+
+# YouTube captions/subtitles extraction (Safe Link Mode)
+youtube-transcript-api>=0.6.2
+
+# Database ORM
+sqlalchemy>=2.0.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Environment variables
+python-dotenv>=1.0.0
