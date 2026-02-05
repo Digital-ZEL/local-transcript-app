@@ -1,0 +1,368 @@
+[
+  {
+    "id": 0,
+    "start": 1.36,
+    "end": 3.04,
+    "text": "[\u266a\u266a\u266a]"
+  },
+  {
+    "id": 1,
+    "start": 18.64,
+    "end": 21.88,
+    "text": "\u266a We're no strangers to love \u266a"
+  },
+  {
+    "id": 2,
+    "start": 22.64,
+    "end": 26.96,
+    "text": "\u266a You know the rules and so do I \u266a"
+  },
+  {
+    "id": 3,
+    "start": 27.04,
+    "end": 31.04,
+    "text": "\u266a A full commitment's what I'm thinking of \u266a"
+  },
+  {
+    "id": 4,
+    "start": 31.12,
+    "end": 35.08,
+    "text": "\u266a You wouldn't get this from any other guy \u266a"
+  },
+  {
+    "id": 5,
+    "start": 35.16,
+    "end": 39.52,
+    "text": "\u266a I just wanna tell you how I'm feeling \u266a"
+  },
+  {
+    "id": 6,
+    "start": 40.52,
+    "end": 42.92,
+    "text": "\u266a Gotta make you understand \u266a"
+  },
+  {
+    "id": 7,
+    "start": 43.0,
+    "end": 45.12,
+    "text": "\u266a Never gonna give you up \u266a"
+  },
+  {
+    "id": 8,
+    "start": 45.2,
+    "end": 47.08,
+    "text": "\u266a Never gonna let you down \u266a"
+  },
+  {
+    "id": 9,
+    "start": 47.32,
+    "end": 51.12,
+    "text": "\u266a Never gonna run around and desert you \u266a"
+  },
+  {
+    "id": 10,
+    "start": 51.48,
+    "end": 53.48,
+    "text": "\u266a Never gonna make you cry \u266a"
+  },
+  {
+    "id": 11,
+    "start": 53.6,
+    "end": 55.52,
+    "text": "\u266a Never gonna say goodbye \u266a"
+  },
+  {
+    "id": 12,
+    "start": 55.72,
+    "end": 59.36,
+    "text": "\u266a Never gonna tell a lie and hurt you \u266a"
+  },
+  {
+    "id": 13,
+    "start": 60.8,
+    "end": 64.8,
+    "text": "\u266a We've known each other for so long \u266a"
+  },
+  {
+    "id": 14,
+    "start": 64.88,
+    "end": 69.03999999999999,
+    "text": "\u266a Your heart's been aching but you're too shy to say it \u266a"
+  },
+  {
+    "id": 15,
+    "start": 69.12,
+    "end": 72.96000000000001,
+    "text": "\u266a Inside we both know what's been going \u266a"
+  },
+  {
+    "id": 16,
+    "start": 73.36,
+    "end": 77.2,
+    "text": "\u266a We know the game and we're gonna play it \u266a"
+  },
+  {
+    "id": 17,
+    "start": 77.4,
+    "end": 82.03999999999999,
+    "text": "\u266a And if you ask me how I'm feeling \u266a"
+  },
+  {
+    "id": 18,
+    "start": 82.4,
+    "end": 85.24,
+    "text": "\u266a Don't tell me you're too blind to see \u266a"
+  },
+  {
+    "id": 19,
+    "start": 85.32,
+    "end": 87.28,
+    "text": "\u266a Never gonna give you up \u266a"
+  },
+  {
+    "id": 20,
+    "start": 87.36,
+    "end": 89.32,
+    "text": "\u266a Never gonna let you down \u266a"
+  },
+  {
+    "id": 21,
+    "start": 89.44,
+    "end": 93.72,
+    "text": "\u266a Never gonna run around and desert you \u266a"
+  },
+  {
+    "id": 22,
+    "start": 93.8,
+    "end": 95.6,
+    "text": "\u266a Never gonna make you cry \u266a"
+  },
+  {
+    "id": 23,
+    "start": 95.75999999999999,
+    "end": 98.0,
+    "text": "\u266a Never gonna say goodbye \u266a"
+  },
+  {
+    "id": 24,
+    "start": 98.08,
+    "end": 102.03999999999999,
+    "text": "\u266a Never gonna tell a lie and hurt you \u266a"
+  },
+  {
+    "id": 25,
+    "start": 102.2,
+    "end": 104.12,
+    "text": "\u266a Never gonna give you up \u266a"
+  },
+  {
+    "id": 26,
+    "start": 104.28,
+    "end": 106.36,
+    "text": "\u266a Never gonna let you down \u266a"
+  },
+  {
+    "id": 27,
+    "start": 106.47999999999999,
+    "end": 110.08,
+    "text": "\u266a Never gonna run around and desert you \u266a"
+  },
+  {
+    "id": 28,
+    "start": 110.75999999999999,
+    "end": 112.72,
+    "text": "\u266a Never gonna make you cry \u266a"
+  },
+  {
+    "id": 29,
+    "start": 112.8,
+    "end": 114.68,
+    "text": "\u266a Never gonna say goodbye \u266a"
+  },
+  {
+    "id": 30,
+    "start": 114.96000000000001,
+    "end": 118.75999999999999,
+    "text": "\u266a Never gonna tell a lie and hurt you \u266a"
+  },
+  {
+    "id": 31,
+    "start": 119.84,
+    "end": 122.96,
+    "text": "\u266a (Ooh, give you up) \u266a"
+  },
+  {
+    "id": 32,
+    "start": 123.72,
+    "end": 127.36,
+    "text": "\u266a (Ooh, give you up) \u266a"
+  },
+  {
+    "id": 33,
+    "start": 128.48,
+    "end": 130.12,
+    "text": "\u266a Never gonna give, never gonna give \u266a"
+  },
+  {
+    "id": 34,
+    "start": 130.24,
+    "end": 131.56,
+    "text": "\u266a (Give you up) \u266a"
+  },
+  {
+    "id": 35,
+    "start": 132.48,
+    "end": 134.24,
+    "text": "\u266a Never gonna give, never gonna give \u266a"
+  },
+  {
+    "id": 36,
+    "start": 134.36,
+    "end": 135.92,
+    "text": "\u266a (Give you up) \u266a"
+  },
+  {
+    "id": 37,
+    "start": 136.76,
+    "end": 141.07999999999998,
+    "text": "\u266a We've known each other for so long \u266a"
+  },
+  {
+    "id": 38,
+    "start": 141.2,
+    "end": 145.2,
+    "text": "\u266a Your heart's been aching but you're too shy to say it \u266a"
+  },
+  {
+    "id": 39,
+    "start": 145.28,
+    "end": 149.12,
+    "text": "\u266a Inside we both know what's been going \u266a"
+  },
+  {
+    "id": 40,
+    "start": 149.52,
+    "end": 153.2,
+    "text": "\u266a We know the game and we're gonna play it \u266a"
+  },
+  {
+    "id": 41,
+    "start": 153.36,
+    "end": 158.04,
+    "text": "\u266a I just wanna tell you how I'm feeling \u266a"
+  },
+  {
+    "id": 42,
+    "start": 158.64,
+    "end": 161.32,
+    "text": "\u266a Gotta make you understand \u266a"
+  },
+  {
+    "id": 43,
+    "start": 161.4,
+    "end": 163.36,
+    "text": "\u266a Never gonna give you up \u266a"
+  },
+  {
+    "id": 44,
+    "start": 163.44,
+    "end": 165.64,
+    "text": "\u266a Never gonna let you down \u266a"
+  },
+  {
+    "id": 45,
+    "start": 165.72,
+    "end": 169.72,
+    "text": "\u266a Never gonna run around and desert you \u266a"
+  },
+  {
+    "id": 46,
+    "start": 169.8,
+    "end": 171.64,
+    "text": "\u266a Never gonna make you cry \u266a"
+  },
+  {
+    "id": 47,
+    "start": 171.8,
+    "end": 173.96,
+    "text": "\u266a Never gonna say goodbye \u266a"
+  },
+  {
+    "id": 48,
+    "start": 174.04,
+    "end": 177.6,
+    "text": "\u266a Never gonna tell a lie and hurt you \u266a"
+  },
+  {
+    "id": 49,
+    "start": 178.2,
+    "end": 180.24,
+    "text": "\u266a Never gonna give you up \u266a"
+  },
+  {
+    "id": 50,
+    "start": 180.32,
+    "end": 182.44,
+    "text": "\u266a Never gonna let you down \u266a"
+  },
+  {
+    "id": 51,
+    "start": 182.52,
+    "end": 186.64,
+    "text": "\u266a Never gonna run around and desert you \u266a"
+  },
+  {
+    "id": 52,
+    "start": 186.72,
+    "end": 188.72,
+    "text": "\u266a Never gonna make you cry \u266a"
+  },
+  {
+    "id": 53,
+    "start": 188.84,
+    "end": 190.72,
+    "text": "\u266a Never gonna say goodbye \u266a"
+  },
+  {
+    "id": 54,
+    "start": 190.84,
+    "end": 195.2,
+    "text": "\u266a Never gonna tell a lie and hurt you \u266a"
+  },
+  {
+    "id": 55,
+    "start": 195.28,
+    "end": 197.12,
+    "text": "\u266a Never gonna give you up \u266a"
+  },
+  {
+    "id": 56,
+    "start": 197.2,
+    "end": 199.24,
+    "text": "\u266a Never gonna let you down \u266a"
+  },
+  {
+    "id": 57,
+    "start": 199.4,
+    "end": 203.12,
+    "text": "\u266a Never gonna run around and desert you \u266a"
+  },
+  {
+    "id": 58,
+    "start": 203.36,
+    "end": 205.6,
+    "text": "\u266a Never gonna make you cry \u266a"
+  },
+  {
+    "id": 59,
+    "start": 205.68,
+    "end": 207.84,
+    "text": "\u266a Never gonna say goodbye \u266a"
+  },
+  {
+    "id": 60,
+    "start": 207.92000000000002,
+    "end": 211.32,
+    "text": "\u266a Never gonna tell a lie and hurt you \u266a"
+  }
+]
